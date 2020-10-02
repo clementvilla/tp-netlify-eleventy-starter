@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Welcome
+title: Accueil
 eleventyNavigation:
   key: Home
 ---
 
 Bonjour à Eleventy starter.
+kk
