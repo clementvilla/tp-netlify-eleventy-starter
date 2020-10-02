@@ -1,14 +1,18 @@
 module.exports = {
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
-  purge: {
-    enabled: false,
-  },
+    future: {
+        removeDeprecatedGapUtilities: true,
+        purgeLayersByDefault: true,
+    },
+    purge: {
+        enabled: false,
+    },
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'hey': '#28a300',
+      },
+    },
   },
-  variants: {},
-  plugins: [],
+    variants: {},
+    plugins: [],
 }
